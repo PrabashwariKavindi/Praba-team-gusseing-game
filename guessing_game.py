@@ -1,4 +1,5 @@
 import random 
+import time 
 while True:
 number = random.randint(1, 75) 
 print("Guess a number between 1 and 75") 
