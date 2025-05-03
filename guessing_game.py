@@ -14,3 +14,4 @@ print(f"Wrong! The number was {number}")
 print("Play again? (y/n)")
     if input().lower() != 'y':
         break
+print(f"Time taken: {time.time() - start_time:.2f}s") 
